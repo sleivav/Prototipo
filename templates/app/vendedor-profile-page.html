@@ -1,0 +1,42 @@
+{% extends 'app/base.html' %}
+{% block content %}
+
+    <main>
+    <div class="container">
+        <div id="profile-page-header" class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="../static/img/food-background3.png" alt="user background">
+            </div>
+            <figure class="card-profile-image">
+                <img src="../static/img/AvatarVendedor1.png" alt="profile image" class="circle z-depth-2 responsive-img activator">
+            </figure>
+            <div class="card-content">
+                <div class="row">
+                    <div class="col s3 offset-s2">
+                        <h4 class="card-title grey-text text-darken-4">Juan Peréz</h4>
+                        <p class="medium-small grey-text">Vendedor Ambulante</p>
+                    </div>
+                    <div class="col s2 center-align">
+                        <h4 class="card-title light-green-text">Disponible</h4>
+                        <p class="medium-small grey-text">Estado</p>
+                    </div>
+                    <div class="col s1 right-align">
+                        <figure class="waves-light">
+                            <img  src="../static/img/star.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="profile-page-content" class="row">
+        <div id="profile-page-wall" class="col s12 m8">
+            <div class="col s12">
+                <div class="tab-content col s12  grey lighten-4">
+                    <h4 class="teal-text">Resumen stock de productos</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+{% endblock %}
