@@ -8,7 +8,14 @@
         padding-left: 0;
       }
     }
-
+    .page-title {
+        margin-left: 60px;
+    }
+    .navbar-fixed {
+        margin-left: 200px;
+        margin-right: 20px;
+        z-index: 9999;
+    }
     #map {
         height: 100%;
         width: 100%;
