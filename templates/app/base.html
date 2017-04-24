@@ -34,14 +34,14 @@
                     class="material-icons">menu</i></a>
             <a  class="page-title">App name</a>
             <ul id="dropdown1" class="dropdown-content">
-              <li><a href="{% url 'app.views.vendedorprofilepage' %}">Vendedores</a></li>
+              <li><a href="{% url 'vendedorprofilepage' %}">Vendedores</a></li>
               <li><a href="#!">Almuerzo</a></li>
               <li class="divider"></li>
               <li><a href="#!">Snack</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-              <li><a href="{% url 'app.views.index' %}">Inicio</a></li>
-              <li><a href="{% url 'app.views.login' %}">Mi Cuenta</a></li>
+              <li><a href="{% url 'index' %}">Inicio</a></li>
+              <li><a href="{% url 'login' %}">Mi Cuenta</a></li>
               <!-- Dropdown Trigger -->
               <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filtrar por<i class="material-icons right">arrow_drop_down</i></a></li>
             </ul>
