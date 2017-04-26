@@ -22,9 +22,9 @@
         <div class="nav-wrapper teal lighten-1">
           <div class="navbar-fixed">
             <a href="#" data-activates="slide-out"
-               class="left button-collapse btn-floating btn-large waves-effect waves-light show-on-large"><i
+               class="left button-collapse btn-floating btn-large waves-effect waves-light"><i
                     class="material-icons">menu</i></a>
-            <a class="page-title"></a>
+            <a class="center page-title"></a>
           </div>
             <ul id="slide-out" class="side-nav fixed leftside-navigation ps-container ps-active-y">
                 <li>
@@ -32,17 +32,17 @@
                   <div class="background" style="height:175px;">
                     <img src="../static/img/background4.png">
                   </div>
-                  <a href="#!user"><img style="margin-top: 30px;" class="circle" src="../static/img/AvatarPenguin.png"></a>
-                  <a href="#!name"><span class="white-text name">John Doe</span></a>
+                  <a href="#!user"><img style="margin-top: 16%;" class="circle" src="../static/img/AvatarEstudiante.png"></a>
+                  <a href="#!name"><span style="margin-left: 5%;" class="white-text name">Alumno</span></a>
                 </div></li>
-                <li><a href="{% url 'index' %}"><i class="material-icons">home</i>Inicio</a></li>
-                <li><a href="{% url 'login' %}"><i class="material-icons">account_circle</i>Mi Cuenta</a></li>
+                <!--<li><a href="{% url 'index' %}"><i class="material-icons">home</i>Inicio</a></li>-->
+                <li><a href="{% url 'login' %}"><i class="material-icons">account_circle</i>Cerrar Sesión</a></li>
                 <li><div class="divider"></div></li>
                 <li><a class="subheader">Filtros</a></li>
                 <li>
                     <div class="switch" style="margin-left: 10px;">
                         <label>
-                            <input type="checkbox"><span class="lever"></span>Favoritos
+                            <input type="checkbox"><span class="lever"></span>Sólo mostrar favoritos
                         </label>
                     </div>
                 </li>
