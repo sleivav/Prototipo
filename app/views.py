@@ -12,3 +12,7 @@ def signup(request):
 
 def vendedorprofilepage(request):
     return render(request, 'app/vendedor-profile-page.html', {})
+
+
+def gestionproductos(request):
+    return render(request, 'app/gestion-productos.html', {})
