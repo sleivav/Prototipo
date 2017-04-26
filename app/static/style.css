@@ -13,6 +13,9 @@
             width: 98%;
         }
     }
+    .medium-small {
+        font-size: 0.9rem;
+    }
     .page-title {
         margin-left: 60px;
     }
